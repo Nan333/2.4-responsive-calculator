@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+.calculator {
+  max-width: 235px;
+  margin-left: auto;
+  margin-right: auto; }
+  .calculator::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.button {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 25%;
+  height: 50px; }
+  .button:last-child {
+    margin-right: 0; }
+  .button:nth-child(4n) {
+    margin-right: 0; }
+  .button:nth-child(4n+1) {
+    clear: left; }
+
+.zero {
+  float: left;
+  display: block;
+  margin-right: 0%;
+  width: 50%; }
+  .zero:last-child {
+    margin-right: 0; }

@@ -1,2 +1,17 @@
 @import '../bower_components/bourbon/app/assets/stylesheets/bourbon';
+$gutter: 0em;
 @import '../bower_components/neat/app/assets/stylesheets/neat';
+
+.calculator {
+  @include outer-container(235px);
+}
+
+.button {
+  @include span-columns(3);
+  height: 50px;
+  @include omega(4n);
+}
+
+.zero {
+  @include span-columns(6);
+}

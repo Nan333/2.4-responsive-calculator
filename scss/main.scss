@@ -10,8 +10,22 @@ $gutter: 0em;
   @include span-columns(3);
   height: 50px;
   @include omega(4n);
+  font-size: 1.5em;
+  font-weight: light;
 }
+
+.button:hover {
+    background: #59A3E0;
+    text-decoration: none;
+    filter: none;
+}​
+
 
 .zero {
   @include span-columns(6);
+}
+
+.operator,
+ .equal{
+  background-color: orange;
 }

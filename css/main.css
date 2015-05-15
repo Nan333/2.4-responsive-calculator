@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   box-sizing: border-box; }
 
@@ -20,7 +21,9 @@ html {
   display: block;
   margin-right: 0%;
   width: 25%;
-  height: 50px; }
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: light; }
   .button:last-child {
     margin-right: 0; }
   .button:nth-child(4n) {
@@ -28,10 +31,21 @@ html {
   .button:nth-child(4n+1) {
     clear: left; }
 
+.button:hover {
+  background: #59A3E0;
+  text-decoration: none;
+  filter: none; }
+
+​
 .zero {
   float: left;
   display: block;
   margin-right: 0%;
   width: 50%; }
-  .zero:last-child {
+  ​
+.zero:last-child {
     margin-right: 0; }
+
+.operator,
+.equal {
+  background-color: orange; }
